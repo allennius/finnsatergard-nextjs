@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
@@ -6,6 +7,25 @@ import styles from '../styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  const callAPI = async () => {
+    try {
+        const res = await fetch('api/hello', 
+        {
+          method: 'GET',
+          // headers: {
+          //   'X-RapidAPI-Key': 'your-rapidapi-key',
+          //   'X-RapidAPI-Host': 'famous-quotes4.p.rapidapi.com',
+          // },
+        }
+      );
+      const data = await res.json();
+      console.log(data)
+    } catch(err) {
+      console.log(err);
+    }
+};
+
   return (
     <>
       <Head>
@@ -15,7 +35,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <Link href='text'>teext</Link>
         <div className={styles.description}>
+
+          <button onClick={callAPI}>API Call</button>
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.tsx</code>

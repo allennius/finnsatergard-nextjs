@@ -35,7 +35,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Link href='text'>teext</Link>
+
+        <h2>SANNA ÄR EN BAJSKORV</h2>
+        {/* <Link href='text'>teext</Link>
         <div className={styles.description}>
 
           <button onClick={callAPI}>API Call</button>
@@ -139,7 +141,7 @@ export default function Home() {
               with&nbsp;Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
     </>
   )

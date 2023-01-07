@@ -7,7 +7,7 @@ import TopNavBar from './components/topbar/TopNavBar'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <TopNavBar />
+      {/* <TopNavBar /> */}
       <Component {...pageProps} />
     </>
 

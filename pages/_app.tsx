@@ -1,14 +1,17 @@
-import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import "./components/topbar/topNavbar.css"
+import "./components/navbar/topbar/topNavbar.css"
+import "./components/navbar/footer/footer.css"
+import '../styles/index.css'
 
-import TopNavBar from './components/topbar/TopNavBar'
+import TopNavBar from './components/navbar/topbar/TopNavBar'
+import Footer from './components/navbar/footer/Footer'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      {/* <TopNavBar /> */}
+      <TopNavBar />
       <Component {...pageProps} />
+      <Footer />
     </>
 
   )

@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[452],{7258:function(n,o,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/navbar/footer/Footer",function(){return _(1332)}])}},function(n){n.O(0,[774,888,179],function(){return n(n.s=7258)}),_N_E=n.O()}]);

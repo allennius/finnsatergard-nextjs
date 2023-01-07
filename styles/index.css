@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: kalam;
+    background-color: #333;
+    overflow: auto;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    min-height: 100%;
+}
+
+
+
+.homeContentContainer {
+    height: 100%;
+  }
+  .homeContentContainer .bgImg1, .homeContentContainer .bgImg2, .homeContentContainer .bgImg3, .homeContentContainer .bgImg4, .homeContentContainer .bgImg5 {
+    position: relative;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .homeContentContainer .bgImg1 .caption, .homeContentContainer .bgImg2 .caption, .homeContentContainer .bgImg3 .caption, .homeContentContainer .bgImg4 .caption, .homeContentContainer .bgImg5 .caption {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #FFFAFA;
+  }
+  .homeContentContainer .bgImg1 .border, .homeContentContainer .bgImg2 .border, .homeContentContainer .bgImg3 .border, .homeContentContainer .bgImg4 .border, .homeContentContainer .bgImg5 .border {
+    background-color: #616161;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  .homeContentContainer .bgImg1 {
+    background-image: url("../pictures/sheepview.jpg");
+    height: 100vh;
+  }
+  .homeContentContainer .bgImg2 {
+    background-image: url("../pictures/sheepblack.jpg");
+    height: 400px;
+  }
+  .homeContentContainer .bgImg3 {
+    background-image: url("../pictures/sheephill.jpg");
+    height: 400px;
+  }
+  .homeContentContainer .bgImg4 {
+    background-image: url("../pictures/cow.jpg");
+    height: 500px;
+  }
+  .homeContentContainer .bgImg5 {
+    background-image: url("../pictures/akselnoranda.jpg");
+    height: 700px;
+    background-position: 50% 20%;
+  }
+  .homeContentContainer .homeContent {
+    padding: 40px 70px;
+    color: #FFFAFA;
+    font-size: 1em;
+    text-align: left;
+  }
+  .homeContentContainer .homeContent:nth-child(4), .homeContentContainer .homeContent:nth-child(8) {
+    background-color: #FFFAFA;
+    color: #616161;
+  }
+  .homeContentContainer .homeContent h1, .homeContentContainer .homeContent h2, .homeContentContainer .homeContent h3, .homeContentContainer .homeContent h4, .homeContentContainer .homeContent h5, .homeContentContainer .homeContent h6 {
+    margin: 0;
+  }
+  .homeContentContainer .homeContent p {
+    margin-top: 0;
+  }
+  
+  /*# sourceMappingURL=home.css.map */
+  

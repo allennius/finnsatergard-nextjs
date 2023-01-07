@@ -1,0 +1,54 @@
+.kossaContentContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 40px;
+  margin-top: 80px;
+}
+.kossaContentContainer .kossaContent {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 0 20px;
+  background-color: #FFFAFA;
+  max-height: 40em;
+  border-radius: 10px;
+  max-width: 800px;
+  overflow: auto;
+  align-self: flex-start;
+  box-shadow: #EEEEEE 0px 0px 3px 1px;
+}
+.kossaContentContainer .kossaContent:nth-child(even) {
+  align-self: flex-end;
+}
+.kossaContentContainer .kossaContent .photoSquare {
+  position: relative;
+  overflow: hidden;
+  max-width: 30%;
+  min-width: 100px;
+  max-height: 100%;
+  /* margin-left: 10px; */
+}
+.kossaContentContainer .kossaContent .photoSquare img {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.kossaContentContainer .kossaContent .textBox {
+  padding: 20px;
+  text-align: justify;
+}
+.kossaContentContainer .kossaContent .textBox h1 {
+  font-size: 1.2em;
+}
+.kossaContentContainer .kossaContent .textBox h3 {
+  font-size: 1.1em;
+}
+.kossaContentContainer .kossaContent .textBox p {
+  font-size: 0.8em;
+}
+
+/*# sourceMappingURL=kossa.css.map */

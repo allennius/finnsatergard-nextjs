@@ -1,7 +1,16 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/Farmen": "pages/Farmen.js"
+  "/_error": "pages/_error.js",
+  "/Farmen": "pages/Farmen.html",
+  "/api/hello": "pages/api/hello.js",
+  "/components/Layout": "pages/components/Layout.html",
+  "/components/Footer": "pages/components/Footer.html",
+  "/components/Navbar": "pages/components/Navbar.html",
+  "/components/navbar/topbar/TopNavBar": "pages/components/navbar/topbar/TopNavBar.html",
+  "/components/navbar/footer/Footer": "pages/components/navbar/footer/Footer.html",
+  "/components/nopage/NoPage": "pages/components/nopage/NoPage.html",
+  "/text": "pages/text.html",
+  "/": "pages/index.html",
+  "/404": "pages/404.html"
 }

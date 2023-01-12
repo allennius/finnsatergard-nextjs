@@ -2,7 +2,8 @@ footer {
   margin-top: auto;
   justify-content: flex-end;
   width: 100%;
-  min-height: 150px;
+  /* min-height: 150px; */
+  padding-bottom: 10px;
   box-shadow: 1px 1px 10px 1px #616161;
 }
 footer .footerContent {
@@ -65,7 +66,7 @@ footer .footerCol input {
 footer .footerCol button {
   height: 2em;
   background-color: rgba(251, 109, 96, 0.98);
-  border-radius: 25%;
+  border-radius: 12%;
   padding: 5px;
   align-self: flex-end;
   outline: none;

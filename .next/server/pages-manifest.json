@@ -1,14 +1,7 @@
 {
   "/_app": "pages/_app.js",
-  "/api/hello": "pages/api/hello.js",
-  "/_document": "pages/_document.js",
-  "/components/navbar/footer/Footer": "pages/components/navbar/footer/Footer.html",
-  "/components/navbar/topbar/TopNavBar": "pages/components/navbar/topbar/TopNavBar.html",
-  "/components/nopage/NoPage": "pages/components/nopage/NoPage.html",
-  "/": "pages/index.html",
-  "/tabs/kossa/Kossa": "pages/tabs/kossa/Kossa.html",
-  "/tabs/sheep/Sheep": "pages/tabs/sheep/Sheep.html",
-  "/text": "pages/text.html",
   "/_error": "pages/_error.js",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/Farmen": "pages/Farmen.js"
 }

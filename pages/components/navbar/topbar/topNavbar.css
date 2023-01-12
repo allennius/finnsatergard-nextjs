@@ -1,17 +1,17 @@
-.topNav {
-  background: inherit;
-  background-color: #616161;
-  z-index: 2;
-  opacity: 0.9;
-  height: 50px;
-  overflow: hidden;
-  position: fixed;
-  display: flex;
-  top: 0;
-  width: 100%;
-  transition: all 1s ease;
-  box-shadow: #616161 1px 1px 5px 1px;
-}
+/* .topNav { */
+  /* background: inherit; */
+  /* background-color: #616161; */
+  /* z-index: 2; */
+  /* opacity: 0.9; */
+  /* height: 50px;
+  overflow: hidden; */
+  /* position: fixed; */
+  /* display: flex; */
+  /* top: 0; */
+  /* width: 100%; */
+  /* transition: all 1s ease; */
+  /* box-shadow: #616161 1px 1px 5px 1px; */
+/* } */
 .topNav span {
   font-size: 1em;
   font-weight: bold;

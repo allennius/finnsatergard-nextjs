@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Footer() {
 
     return (
-        <footer>
+        <footer className=''>
             <div className="footerContent">
                 <div className="footerCol">
                 {/* <FontAwesomeIcon icon={faCoffee} /> */}
@@ -32,7 +32,7 @@ export default function Footer() {
                 <div className="footerColSoc">
                     <h4>Social</h4>
                     <div className="socialLinks">
-                            <Link href='' className="instagram "><i className="lni lni-instagram-original"></i></Link>
+                            <Link href='' className="h-8 w-8 rounded-full"><i className="lni lni-instagram-original"></i></Link>
                             <Link href='' className="facebook"><i className="facebook lni lni-facebook-filled"></i></Link>
                     </div>
                 </div>

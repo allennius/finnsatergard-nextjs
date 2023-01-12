@@ -68,7 +68,11 @@ export default function Topbar() {
 
 
     return (
-        <div className="topNav">
+        <div className="topNav bg-light-gray z-10 opacity-[.9] h-12
+        overflow-hidden fixed flex top-0 w-full 
+        transition-all duration-1000 ease-in-out
+        shadow shadow-light-gray
+        navbar navbar-expand">
             {/* <div className="navHead">
                 <Link className="navLink" to="/"> <span> Finnsätergård</span></Link>
             </div> */}
@@ -80,10 +84,19 @@ export default function Topbar() {
                     <Link className="navLink" href="/">Home</Link>
                 </li>
                 <li className="navItem">
-                    <Link className="navLink" href="/tabs/kossa/Kossa">Kossa</Link>
+                    <Link className="navLink" href="/tabs/Farmen">Farmen</Link>
                 </li>
                 <li className="navItem">
-                    <Link className="navLink" href="/tabs/sheep/Sheep">Får</Link>
+                    <Link className="navLink" href="/">Kossa</Link>
+                </li>
+                <li className="navItem">
+                    <Link className="navLink" href="/">Får</Link>
+                </li>
+                <li className="navItem">
+                    <Link className="navLink" href="/">##</Link>
+                </li>
+                <li className="navItem">
+                    <Link className="navLink" href="/">##</Link>
                 </li>
             </ul>
             <div className="menuButtonContainer" onClick={() => toggleMenuButton()}>

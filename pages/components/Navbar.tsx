@@ -14,12 +14,12 @@ export default function Navbar() {
         <div className={`bg-slate-900 text-gray-200 h-12 py-4
         flex flex-col top-0 shadow-md shadow-light-gray
         transition-height duration-1000 ease-in-out
-            ${open ? 'h-80 md:h-12 rounded-b-lg' : ''}
+            ${open ? 'h-80 md:h-12' : ''}
         `}>
 
             {/* nav List */}
             <ul className={`flex flex-row w-full content-start gap-6
-                ${open ? 'flex-col md:flex-row' : ''}
+                ${open ? 'flex-col md:flex-row gap-4' : ''}
             `}>
                 {/* nav head */}
                 <div className={` ${open ?
@@ -31,15 +31,16 @@ export default function Navbar() {
                 {/* nav Links */}
                 {[
                     ['Home', '/'],
-                    ['Farmen', '/Farmen'],
-                    ['#', '#'],
-                    ['##', '#'],
-                    ['###', '#'],
-                    ['####', '#'],
+                    ['Gården', '/Historia'],
+                    ['Produkter', `/Produkter`],
+                    ['Keramik', '/Keramik'],
+                    ['Djuren', 'Djuren'],
+                    ['Moments', 'Moments'],
+                    ['Kontakt', 'Kontakt'],
                 ].map(([title, url]) => (
 
                     <li key={title} className={`md:inline
-                    ${open ? 'inline ml-4 animate-visibilityGrowing' : 'hidden'} `}>
+                    ${open ? 'inline ml-4 mb-[2px] animate-visibilityGrowing' : 'hidden'} `}>
                         <Link key={title} href={url} className='hover:bg-slate-700 hover:p-1 rounded-md'>{title}</Link>
                     </li>
                 ))}

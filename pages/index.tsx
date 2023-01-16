@@ -1,5 +1,3 @@
-import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 
@@ -17,7 +15,7 @@ export default function Home() {
 
   const callAPI = async () => {
     try {
-        const res = await fetch('api/hello', 
+        const res = await fetch('/api/handler', 
         {
           method: 'GET',
           // headers: {

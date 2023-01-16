@@ -27,12 +27,12 @@ function Navbar() {
         className: `bg-slate-900 text-gray-200 h-12 py-4
         flex flex-col top-0 shadow-md shadow-light-gray
         transition-height duration-1000 ease-in-out
-            ${open ? "h-80 md:h-12 rounded-b-lg" : ""}
+            ${open ? "h-80 md:h-12" : ""}
         `,
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
                 className: `flex flex-row w-full content-start gap-6
-                ${open ? "flex-col md:flex-row" : ""}
+                ${open ? "flex-col md:flex-row gap-4" : ""}
             `,
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -51,28 +51,32 @@ function Navbar() {
                             "/"
                         ],
                         [
-                            "Farmen",
-                            "/Farmen"
+                            "G\xe5rden",
+                            "/Historia"
                         ],
                         [
-                            "#",
-                            "#"
+                            "Produkter",
+                            `/Produkter`
                         ],
                         [
-                            "##",
-                            "#"
+                            "Keramik",
+                            "/Keramik"
                         ],
                         [
-                            "###",
-                            "#"
+                            "Djuren",
+                            "Djuren"
                         ],
                         [
-                            "####",
-                            "#"
+                            "Moments",
+                            "Moments"
+                        ],
+                        [
+                            "Kontakt",
+                            "Kontakt"
                         ]
                     ].map(([title, url])=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                             className: `md:inline
-                    ${open ? "inline ml-4 animate-visibilityGrowing" : "hidden"} `,
+                    ${open ? "inline ml-4 mb-[2px] animate-visibilityGrowing" : "hidden"} `,
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 href: url,
                                 className: "hover:bg-slate-700 hover:p-1 rounded-md",
